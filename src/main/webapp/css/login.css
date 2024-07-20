@@ -1,0 +1,191 @@
+@charset "ISO-8859-1";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: whitesmoke;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 235, 235);
+  background-image: url('../images/bg.jpeg');
+}
+
+.form-container {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.loginhere {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.login {
+  width: 300px;
+  margin-bottom: 40px;
+  padding: 15px 20px 15px 45px;
+  font-size: 15px;
+  border: 1px solid rgb(183, 182, 182);
+  border-radius: 15px;
+}
+
+.login::placeholder {
+  color: black;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.material-icons {
+  position: fixed;
+  margin-top: 11px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.loginbutton {
+  padding: 10px 35px 10px 35px;
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.forgot {
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+
+.reghere {
+  text-decoration: none;
+  color: black;
+  margin-top: 1px;
+}
+
+.loginbutton:hover {
+  background-color: white;
+  color: black;
+}
+
+.forgot:hover {
+  color: green;
+}
+
+.reghere:hover {
+  color: green;
+}
+
+@media (max-width: 550px) {
+  .form-container {
+    width: 90%;
+    height: 90%;
+  }
+
+  .login {
+    width: 90%;
+    padding: 15px 40px 15px 35px;
+    font-size: 15px;
+    margin-right: 50px;
+    margin-left: 12px;
+  }
+
+  .loginbutton {
+    padding: 7px 25px 7px 25px;
+    font-size: 13px;
+  }
+
+  .loginhere {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  .icon {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .material-icons {
+    position: fixed;
+    margin-top: 13px;
+    margin-left: 20px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 367px) {
+  .form-container {
+    width: 90%;
+    height: 90%;
+  }
+
+  .login {
+    width: 90%;
+    padding: 15px 40px 15px 35px;
+    font-size: 15px;
+    margin-right: 50px;
+    margin-left: 12px;
+  }
+
+  .loginbutton {
+    padding: 7px 25px 7px 25px;
+    font-size: 13px;
+  }
+
+  .loginhere {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  .icon {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .material-icons {
+    position: fixed;
+    margin-top: 13px;
+    margin-left: 20px;
+    font-size: 17px;
+  }
+
+  .reghere {
+    text-decoration: none;
+    color: black;
+    margin-top: 1px;
+    font-size: 15px;
+  }
+}
