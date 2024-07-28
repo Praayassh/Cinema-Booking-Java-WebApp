@@ -1,0 +1,355 @@
+@charset "ISO-8859-1";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #efefef;
+}
+
+.logo {
+  height: 23px;
+}
+
+.logocon {
+  margin-left: 4%;
+}
+
+.nav {
+  margin-right: 4%;
+  min-width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 32px 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 550;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-bottom: 5px solid #ffffff;
+  padding: 30px 0;
+}
+
+.nav a:hover {
+  border-bottom: 3px solid #f54e77;
+}
+
+.search {
+  display: flex;
+  height: 40px;
+  min-width: 200px;
+  width: 30%;
+  align-items: center;
+  border: 1px solid bl;
+}
+
+.searchicon {
+  box-sizing: content-box;
+  height: 20px;
+  padding: 10px;
+  background-color: #f5f5f6;
+  color: #282c3f;
+  font-weight: 300;
+  border-radius: 4px 0 0 0 4px;
+}
+
+.searchinput {
+  color: #696e79;
+  background-color: #f5f5f6;
+  flex-grow: 1;
+  height: 40px;
+  border: 0;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.searchinput:focus {
+  border: 0;
+  outline: none;
+}
+
+.nav-icon {
+  display: none;
+  position: absolute;
+  right: 4%;
+  font-size: 24px;
+}
+
+.overallinfo {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  background-color: #f9f9f9;
+}
+
+.details_con {
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.details_con h2 {
+  margin-top: 5%;
+  margin-bottom: 20%;
+  font-size: 22px;
+}
+
+.details_con p {
+  margin-bottom: 20%;
+  font-size: 17px;
+  color: #94969f;
+} 
+
+.moredetails {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.description {
+  margin-top: 30px;
+}
+
+.description p{
+  color: #94969f;
+}
+
+.location {
+  margin-top: 20px;
+}
+
+.cinemas {
+  margin-top: 20px;
+}
+
+.description, .location, .cinemas {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.buttoncont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookbutton {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 17px;
+  border: 1px solid rgb(247, 30, 62);
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(247, 30, 62);
+  margin: 20px auto;
+  width: fit-content;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bookbutton:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+.description {
+  font-size: 17px;
+  border: 1px solid #efefef;
+  border-radius: 8px;
+}
+
+.location select, .cinemas select {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #121314;
+  cursor: pointer;
+}
+
+.location select:focus, .cinemas select:focus {
+  border-color: #f54e77;
+}
+
+.location option, .cinemas option {
+  padding: 60px 0;
+}
+
+.location option:hover, .cinemas option:hover {
+  background-color: #f5f5f6;
+}
+
+.date{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 70px;
+  font-weight: 600;
+}
+
+.time {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.datecont {
+  display: flex;
+  flex-direction: row;
+  margin-left: 12px;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.datecont input[type="radio"] {
+  display: none;
+}
+
+.datecont label {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 20px 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.datecont input[type="radio"]:checked + label {
+  color: black;
+  background-color: rgb(0, 255, 153);
+}
+
+.datecont label:hover {
+  color: black;
+  background-color: white;
+}
+
+.timeconta {
+  display: flex;
+  flex-direction: row;
+  margin-left: 12px;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.timeconta input[type="radio"] {
+  display: none;
+}
+
+.timeconta label {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 20px 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.timeconta input[type="radio"]:checked + label {
+  color: black;
+  background-color: rgb(0, 255, 153); 
+}
+
+.timeconta label:hover {
+  color: black;
+  background-color: white;
+}
+
+.footer_container {
+  padding: 30px 0px 40px 0px;
+  background-color: #FAFBFC;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_column h3 {
+  color: #282c3f;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.footer_column p {
+  color: #696B79;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.copyright {
+  color: #94969f;
+  padding: 15px;
+  text-align: end;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+@media (max-width: 630px) {
+  .nav {
+    display: none;
+  }
+
+  .search-container {
+    width: 100%;
+  }
+
+  .nav-icon {
+    display: block;
+    position: absolute;
+    right: 4%;
+    font-size: 24px;
+  }
+
+  .search {
+    width: 100%;
+    padding-right: 50px;
+    box-sizing: border-box;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .images {
+    height: 200px;
+  }
+
+  .details_con h2 {
+    font-size: 19px;
+  }
+
+  .details_con p {
+    font-size: 13px;
+  }
+}
