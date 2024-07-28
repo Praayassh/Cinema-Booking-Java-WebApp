@@ -10,6 +10,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
 import np.com.prayashsapkota.screenx.dbconnection.DBConnection;
 
 @WebServlet("/loginform")
@@ -21,6 +23,8 @@ public class LoginServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String email = req.getParameter("loginemail");
 		String password = req.getParameter("loginpass");
+		HttpSession ses = req.getSession();
+		ses.setAttribute("email", email);
 
 		Connection con = null;
 		PreparedStatement ps = null;

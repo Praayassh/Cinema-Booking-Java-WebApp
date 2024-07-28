@@ -12,5 +12,7 @@
 	<classpathentry kind="lib" path="D:/jars/javax.mail.jar"/>
 	<classpathentry kind="lib" path="D:/jars/mysql-connector-java-8.0.11.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0"/>
+	<classpathentry kind="lib" path="C:/Users/praya/Downloads/standard-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/praya/Downloads/jstl-1.2.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

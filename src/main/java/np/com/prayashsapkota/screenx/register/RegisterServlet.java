@@ -34,6 +34,7 @@ public class RegisterServlet extends HttpServlet {
 		String myEmail = req.getParameter("email1");
 		String myPhone = req.getParameter("phone1");
 		String myPass = req.getParameter("pass1");
+		
 		String errorMessage = null;
 		final String passwordPattern = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=!])(?=\\S+$).{8,}$";
 

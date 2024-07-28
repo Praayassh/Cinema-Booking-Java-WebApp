@@ -1,15 +1,19 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
 <title>Session Values</title>
 </head>
 <body>
-	<h2>Session Values</h2>
-	<p>Token: ${sessionScope.token}</p>
-	<p>Name: ${sessionScope.name}</p>
-	<p>Email: ${sessionScope.email}</p>
-	<p>Phone: ${sessionScope.phone}</p>
-	<p>Password: ${sessionScope.pass}</p>
+    <h1>Session Values</h1>
+    <p>Email: <%= session.getAttribute("email") %></p>
+    <p>Selected Seats: <%= session.getAttribute("selectedSeats") %></p>
+    <p>Total Price: <%= session.getAttribute("totalPrice") %></p>
+    <p>Location: <%= session.getAttribute("location") %></p>
+    <p>Cinema: <%= session.getAttribute("cinema") %></p>
+    <p>Date: <%= session.getAttribute("date") %></p>
+    <p>Time: <%= session.getAttribute("time") %></p>
 </body>
 </html>
