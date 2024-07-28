@@ -144,7 +144,6 @@
 			</div>
 		</div>
 
-		</div>
 	</main>
 	<footer>
 		<div class="footer_container">
