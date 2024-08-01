@@ -1,8 +1,9 @@
-Cinema Booking System
-Overview
+Cinema Booking System<br>
+
+Overview<br>
 The Cinema Booking System is a web application designed for managing cinema bookings. Built using Core Java, JDBC, JSP, MySQL, HTML, CSS, and a touch of JavaScript, this application provides a comprehensive solution for booking cinema tickets.<br><br>
 
-Features
+Features<br>
 User Authentication:<br>
 
 Login and Register: Users can create an account and log in using their email.<br>
@@ -22,14 +23,18 @@ The application features a responsive design that adapts to various screen sizes
 Database Interaction:<br>
 
 Uses JDBC to interact with a MySQL database, storing user and booking information.<br><br>
-Technologies Used
+
+Technologies Used<br>
+
 Core Java: The main programming language for application logic.<br>
 JDBC: Java Database Connectivity for interacting with the MySQL database.<br>
 JSP: JavaServer Pages for rendering dynamic web pages.<br>
 MySQL: Database management system for storing user and booking data.<br>
 HTML/CSS: For structuring and styling web pages.<br>
 JavaScript: Used minimally for client-side enhancements.<br><br>
-Getting Started
+
+
+Getting Started<br>
 Clone the Repository:<br>
 
 bash<br>
