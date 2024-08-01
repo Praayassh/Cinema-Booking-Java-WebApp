@@ -7,8 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>Booking has been confirmed</p>
+<h1 style="color:green">Booking has been confirmed. Please arrive on time.</h1>
 <a href=""></a>
-
 </body>
 </html>

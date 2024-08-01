@@ -10,6 +10,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import np.com.prayashsapkota.screenx.dbconnection.DBConnection;
 
@@ -20,6 +21,8 @@ public class MovieDetailsServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String movieName = req.getParameter("movie");
+        HttpSession ses = req.getSession();
+        ses.setAttribute("movieName", movieName);
 
         if (movieName != null && !movieName.trim().isEmpty()) {
             Movie movie = getMovieDetails(movieName);

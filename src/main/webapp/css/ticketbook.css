@@ -1,3 +1,4 @@
+
 @charset "ISO-8859-1";
 * {
   margin: 0;
@@ -159,6 +160,11 @@ header {
   background-color: green;
   color: #fff;
   border: 1px solid green;
+}
+
+.booked {
+    background-color: gray;
+    cursor: not-allowed;
 }
 
 .total-price {
@@ -379,5 +385,3 @@ main {
     width: calc(100% - 20px);
   }
 }
-
-

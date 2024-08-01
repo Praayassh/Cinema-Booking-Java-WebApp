@@ -19,7 +19,7 @@
     <div class="nav">
       <a href="homepage.jsp">Home</a>
       <a href="profile">Profile</a>
-      <a href="#">Bookings</a>
+      <a href="booking">Bookings</a>
     </div>
     <div class="nav-icon">
       <span class="material-symbols-outlined">menu</span>
