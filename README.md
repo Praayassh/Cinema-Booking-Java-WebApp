@@ -33,29 +33,9 @@ MySQL: Database management system for storing user and booking data.<br>
 HTML/CSS: For structuring and styling web pages.<br>
 JavaScript: Used minimally for client-side enhancements.<br><br>
 
+Contribution<br>
 
-Getting Started<br>
-Clone the Repository:<br>
-
-bash<br>
-Copy code
-git clone https://github.com/Praayassh/cinema-booking-system.git<br>
-```<br><br>
-
-Set Up the Database:<br>
-
-Import the provided SQL scripts to set up the database schema.<br><br>
-Configure the Application:<br>
-
-Update the database connection settings in the DBConnection class.<br><br>
-Run the Application:<br>
-
-Deploy the application on a servlet container (e.g., Apache Tomcat).<br><br>
-Access the Application:<br>
-
-Open your browser and navigate to the local server address.<br><br>
-Contribution
 Feel free to contribute to the project by opening issues or submitting pull requests. Contributions are welcome to enhance the functionality and improve the user experience.<br><br>
 
-License
+License<br>
 This project is licensed under the MIT License.
