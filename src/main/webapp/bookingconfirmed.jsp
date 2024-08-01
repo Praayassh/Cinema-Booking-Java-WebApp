@@ -8,6 +8,6 @@
 </head>
 <body>
 <h1 style="color:green">Booking has been confirmed. Please arrive on time.</h1>
-<a href=""></a>
+<a href="homepage.jsp">Go to homepage</a>
 </body>
 </html>
