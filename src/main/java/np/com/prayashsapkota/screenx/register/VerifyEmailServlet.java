@@ -117,8 +117,8 @@ public class VerifyEmailServlet extends HttpServlet {
 
     private void sendVerificationEmail(String email, String token) throws MessagingException {
         String host = "smtp.gmail.com";
-        String from = "YOOUR_EMAIL";                      //CHANGE THE EMAIL
-        String pass = "YOUR IN APP PASSWORD";             // CHANGE THE PASSWORD
+        String from = "YOOUR_EMAIL";                      //CHANGE EMAIL
+        String pass = "YOUR IN APP PASSWORD";             // CHANGE PASSWORD
 
         Properties props = new Properties();
         props.put("mail.smtp.starttls.enable", "true");
